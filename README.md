@@ -1,4 +1,4 @@
-## Motivation
+  ## Motivation
 I wanted to be able to download an already cleaned up `create-next-app` structure
 ## Changes To Original Package
 ### Installed SASS
@@ -13,10 +13,10 @@ I wanted to be able to download an already cleaned up `create-next-app` structur
 - `/components/header`
   - displays a header on the top of the page. It contains code for all page naviagation. 
 - `/components/heading`
-  - displays either an h1 or an h2 tag depending on the type prop set `<Heading type={"h1"}>Heading 1</Heading>`
+  - Returns either an `<h1>` or an `<h2>` element depending on the type prop set `<Heading type={"h1"}>Heading1</Heading>`
 - `/components/modal`
   - Truthfully, I only included this package because it is used in the mobile nav menu. It can be used for any other modal view though.
 - `/components/tables`
   - Just an example of a standard table component that can return various tables
 - `/components/text`
-  - A component that shows various forms of text, such as p, or figcaption
+  - A component that shows various forms of text, such as `<p>`, or `<figcaption>`
